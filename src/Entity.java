@@ -3,7 +3,7 @@ public class Entity {
     private int nivel;
     private int puntosVida;
 
-    public Entity(String nombre, int nivel, int puntosVida) {
+    public void Entity(String nombre, int nivel, int puntosVida) {
         this.nombre = nombre;
         this.nivel = nivel;
         this.puntosVida = puntosVida;

@@ -43,5 +43,11 @@ public class CharacterWizard extends Entity {
         this.mana = mana;
     }
 
-    public void atacar()
+    public void atacar(Entity objetivo) {
+        objetivo.setHeartPoints(
+                objetivo.getHeartPoints() - this.fuerzaAtaque
+        );
+
+        setMana(-5);
+    }
 }

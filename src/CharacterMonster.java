@@ -32,4 +32,12 @@ public class CharacterMonster extends Entity {
     public void setMana(int mana) {
         this.mana = mana;
     }
+
+    public void atacar(Entity objetivo) {
+        objetivo.setHeartPoints(
+                objetivo.getHeartPoints() - this.fuerzaAtaque
+        );
+
+        setMana(-5);
+    }
 }
