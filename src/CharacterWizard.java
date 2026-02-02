@@ -4,7 +4,7 @@ public class CharacterWizard extends Entity {
     private int fuerzaFisicaPuntos;
     private int mana;
 
-    public void CharacterWizard(int fuerzaAtaque, boolean fuerzaFisica, int fuerzaFisicaPuntos, int mana) {
+    public CharacterWizard(int fuerzaAtaque, boolean fuerzaFisica, int fuerzaFisicaPuntos, int mana) {
         this.fuerzaAtaque = fuerzaAtaque;
         this.fuerzaFisica = fuerzaFisica;
         this.fuerzaFisicaPuntos = fuerzaFisicaPuntos;
@@ -42,4 +42,6 @@ public class CharacterWizard extends Entity {
     public void setMana(int mana) {
         this.mana = mana;
     }
+
+    public void atacar()
 }

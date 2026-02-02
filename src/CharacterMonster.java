@@ -3,7 +3,7 @@ public class CharacterMonster extends Entity {
     private boolean fuerzaFisica;
     private int mana;
 
-    public void CharacterMonster(int fuerzaAtaque, boolean fuerzaFisica, int mana) {
+    public CharacterMonster(int fuerzaAtaque, boolean fuerzaFisica, int mana) {
         this.fuerzaAtaque = fuerzaAtaque;
         this.fuerzaFisica = fuerzaFisica;
         this.mana = mana;
