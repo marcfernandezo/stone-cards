@@ -1,35 +1,35 @@
 public class Entity {
-    String name;
-    int level;
-    int heartPoints;
+    private String nombre;
+    private int nivel;
+    private int puntosVida;
 
-    public Entity(String name, int level, int heartPoints) {
-        this.name = name;
-        this.level = level;
-        this.heartPoints = heartPoints;
+    public void Entity(String nombre, int nivel, int puntosVida) {
+        this.nombre = nombre;
+        this.nivel = nivel;
+        this.puntosVida = puntosVida;
     }
 
     public String getName() {
-        return this.name;
+        return this.nombre;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String nombre) {
+        this.nombre = nombre;
     }
 
     public int getLevel() {
-        return this.level;
+        return this.nivel;
     }
 
-    public void setLevel(int level) {
-        this.level = level;
+    public void setLevel(int nivel) {
+        this.nivel = nivel;
     }
 
     public int getHeartPoints() {
-        return this.heartPoints;
+        return this.puntosVida;
     }
 
-    public void setHeartPoints(int heartPoints) {
-        this.heartPoints = heartPoints;
+    public void setHeartPoints(int puntosVida) {
+        this.puntosVida = puntosVida;
     }
 }
